@@ -798,5 +798,458 @@ body {
     width: 60px;     /* smaller clouds */
   }
 }
+/* =========================
+   MOBILE RESPONSIVE FIXES
+   Add these to the end of your style.css
+   ========================= */
 
+/* Tablets and below (768px) */
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  
+  .logo-mark {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+  }
+
+  /* Hero section */
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+  .hero-badge {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .meta-pill {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+  }
+
+  /* Hero graphic positioning */
+  .hero-graphic {
+    width: 300px;
+    top: 50px;
+  }
+
+  .cloud {
+    width: 70px;
+  }
+
+  /* Hero card */
+  .profile-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero-name {
+    font-size: 1.1rem;
+  }
+
+  .stat-value {
+    font-size: 0.9rem;
+  }
+
+  .stat-label {
+    font-size: 0.65rem;
+  }
+
+  /* Section spacing */
+  .section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  /* Project cards */
+  .project-card,
+  .case-study {
+    margin-bottom: 1rem;
+  }
+
+  /* Contact form */
+  .contact-card {
+    padding: 16px;
+  }
+
+  /* Page header */
+  .page-header {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .page-header h1 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Mobile devices (576px and below) */
+@media (max-width: 576px) {
+  /* Typography adjustments */
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-lead {
+    font-size: 0.9rem;
+  }
+
+  .subsection-title {
+    font-size: 1.1rem;
+  }
+
+  /* Hero section mobile */
+  .hero-section {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .hero-left {
+    padding-top: 10px;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-meta {
+    gap: 0.3rem;
+  }
+
+  .meta-pill {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+
+  /* Hero graphic mobile */
+  .hero-graphic {
+    width: 240px;
+    top: -20px;
+  }
+
+  .mountain-thumb {
+    opacity: 0.15;
+  }
+
+  .cloud {
+    width: 55px;
+  }
+
+  .cloud-1 {
+    top: -40px;
+  }
+
+  .cloud-3 {
+    top: -100px;
+  }
+
+  /* Buttons mobile */
+  .btn-lg {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .hero-social a {
+    width: 28px;
+    height: 28px;
+    font-size: 0.85rem;
+  }
+
+  /* Hero card mobile */
+  .hero-card {
+    padding: 18px 14px;
+    margin-top: 2rem;
+  }
+
+  .profile-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .hero-name {
+    font-size: 1.05rem;
+    margin-top: 0.75rem;
+  }
+
+  .hero-role {
+    font-size: 0.85rem;
+  }
+
+  .stat-card {
+    padding: 6px 3px;
+  }
+
+  .stat-value {
+    font-size: 0.85rem;
+  }
+
+  .stat-label {
+    font-size: 0.65rem;
+  }
+
+  .hero-availability {
+    font-size: 0.75rem;
+  }
+
+  /* About section mobile */
+  .education-card {
+    padding: 12px 14px;
+    font-size: 0.9rem;
+  }
+
+  .skill-card {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+
+  .skill-card h6 {
+    font-size: 0.95rem;
+  }
+
+  /* Project cards mobile */
+  .project-card {
+    padding: 14px 12px;
+  }
+
+  .project-card h5 {
+    font-size: 1rem;
+  }
+
+  .project-card p {
+    font-size: 0.85rem;
+  }
+
+  .project-tag,
+  .case-tag {
+    font-size: 0.65rem;
+    padding: 2px 7px;
+  }
+
+  .project-meta span,
+  .case-footer .tags span {
+    font-size: 0.65rem;
+    padding: 2px 6px;
+  }
+
+  /* Case studies mobile */
+  .case-study {
+    padding: 14px 12px;
+  }
+
+  .case-header h3 {
+    font-size: 1rem;
+  }
+
+  .case-study p {
+    font-size: 0.85rem;
+  }
+
+  .case-points {
+    font-size: 0.85rem;
+    padding-left: 1rem;
+  }
+
+  .case-link {
+    font-size: 0.8rem;
+  }
+
+  /* Timeline/Internship cards mobile */
+  .timeline-card {
+    padding: 12px 10px 12px 8px;
+  }
+
+  .timeline-indicator {
+    width: 6px;
+    margin-right: 10px;
+  }
+
+  .timeline-content h5 {
+    font-size: 1rem;
+  }
+
+  .internship-card {
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+
+  .internship-detailed-card {
+    padding: 14px;
+  }
+
+  /* Contact section mobile */
+  .contact-card {
+    padding: 14px;
+  }
+
+  .contact-card h5 {
+    font-size: 1.05rem;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+  }
+
+  .contact-info {
+    font-size: 0.9rem;
+  }
+
+  /* Footer mobile */
+  .simple-footer {
+    padding: 20px 0;
+  }
+
+  .simple-footer .footer-social a {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+  }
+
+  .simple-footer .footer-text {
+    font-size: 0.8rem;
+  }
+
+  /* Page header mobile */
+  .page-header {
+    padding-top: 90px;
+    padding-bottom: 25px;
+  }
+
+  .page-kicker {
+    font-size: 0.7rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.9rem;
+  }
+
+  /* Mini project cards mobile */
+  .mini-project-card {
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+
+  /* Navbar mobile improvements */
+  .navbar-collapse {
+    margin-top: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0.75rem;
+    margin-left: 0;
+  }
+
+  .nav-item .btn {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+}
+
+/* Extra small devices (400px and below) */
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .hero-graphic {
+    width: 200px;
+    top: -30px;
+  }
+
+  .cloud {
+    width: 45px;
+  }
+
+  .profile-circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    font-size: 1.35rem;
+  }
+
+  .btn-lg {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Landscape orientation fixes */
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero-section {
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+
+  .hero-graphic {
+    width: 280px;
+    top: 20px;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+}
+
+/* Fix for very wide content on small screens */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Ensure images don't overflow */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Fix for long words breaking layout */
+  h1, h2, h3, h4, h5, h6, p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
 
